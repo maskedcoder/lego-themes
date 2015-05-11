@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Streamgraph</title>
+		<link rel="stylesheet" type="text/css" href="basic.css" />
+	</head>
+	<body>
+		<div id="top-ruler"></div>
+		<section id="chart"></section>
+		<section id="info" style="display: none">
+			<span id="upper-arrow" class="arrow left-arrow">&nbsp;</span>
+			<div id="balloon" class="left-arrow">
+				<h2 id="theme"></h2>
+				<p id="desc"></p>
+				<p id="year">&nbsp;</p>
+				<p id="setNumber">&nbsp;</p>
+			<span id="lower-arrow" class="arrow left-arrow" style="display: none">&nbsp;</span>
+			</div>
+		</section>
+		<section id="panel">
+			<h2>Controls</h2>
+			<div id="controls" style="display: none">
+				<div class="left">
+					<ul id="themelist"></ul>
+				</div>
+				<div class="right">
+				</div>
+			</div>
+		</section>
+		<script type="text/javascript" src="d3.v2.js"></script>
+		<script type="text/javascript" src="jquery.1.4.min.js"></script>
+		<script type="text/javascript" src="bricksetthemes.js"></script>
+		<script type="text/javascript" src="graph.js"></script>
+	</body>
+</html>
